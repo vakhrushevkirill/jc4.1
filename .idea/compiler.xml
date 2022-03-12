@@ -12,6 +12,9 @@
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
+      <module name="api" target="17" />
+      <module name="db" target="17" />
+      <module name="service" target="17" />
       <module name="web" target="17" />
     </bytecodeTargetLevel>
   </component>

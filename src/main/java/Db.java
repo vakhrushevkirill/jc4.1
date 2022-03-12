@@ -1,3 +1,5 @@
+import java.util.UUID;
+
 public class Db {
 
     private DbSetting dbSetting;
@@ -6,6 +8,8 @@ public class Db {
     public Db(DbSetting dbSetting) {
         this.dbSetting = dbSetting;
         myEntity = new MyEntity("first");
+
+
         myEntity.setId(UUID.randomUUID());
     }
 
